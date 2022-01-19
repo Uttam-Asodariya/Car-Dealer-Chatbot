@@ -1,0 +1,43 @@
+{"intents": [
+    {"tag": "Greeting",
+        "patterns": ["Hi", "How are you?", "Is anymore there?", "Hey", "Good day"],
+        "responses": ["Good to see you again", "Hi there, how can I help you?"]
+    },
+    {"tag": "Noanswer",
+        "patterns": [],
+        "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"]
+    },
+    {"tag": "Buy",
+        "patterns": ["I want to buy a car","I am looking for a car", "I need a car", "car", "Jeep"],
+        "responses":["First of all congratulations. Which one: New or Second hand"]
+    },
+    {"tag": "Car Type",
+        "patterns": ["New", "Second hand", "Branded", "old"],
+        "responses": ["Perfect, Now tell me which auto brand you would prefer: X, Y, Z, A, B, C","which car company is your desirable: X, Y, Z, A, B, C", "From which brand: X, Y, Z, A, B, C"]
+    },
+    {"tag":"Car Brand",
+        "patterns":["x", "Y", "Z", "A", "B", "c"],
+        "responses":["Waiting we are preparing your choice.....Here, you can go: ABC, XYZ, PQR, KLW, UPQ"]
+    },
+    {"tag":"Purchasing",
+        "patterns": ["ABC", "XYZ", "PQR","KLW", "UPQ", "U", "p", "Q", "K", "L", "W", "A", "B", "c", "XY", "YZ", "ZA", "PQ", "QR", "RA"],
+        "responses":["Here is the total cost of this product with 5 free service per year: 43000€."]
+    },
+    {"tag":"Confirmation",
+        "patterns":["Ok, I want to buy this", "This one is done", "I want to go with this"],
+        "responses":["Perfect, I booked this car", "okay, I am going to book this car for you"]
+    },
+    {"tag":"Did not Like any brand",
+        "patterns": ["I don't like any of this", "I want to buy another one", "please give me more option"],
+        "responses":["okay, we are looking for you more....Please kindly wait"]
+    },
+    {"tag": "Goodbye",
+        "patterns": ["Bye", "Thanks for visiting our site", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+        "responses": ["See you", "Have a nice day", "Bye! Comeback again soon."]
+    },
+    {"tag": "Thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure", "Best wishes for new car"]
+    }
+]
+}
