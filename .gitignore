@@ -1,6 +1,6 @@
 .history
-.CHATBOT train.ipynb
-.CHATBOT train.py
-.Dockerfile
-.README.md
-.stored_experiencedebug
+CHATBOT train.ipynb
+CHATBOT train.py
+Dockerfile
+README.md
+stored_experiencedebug
