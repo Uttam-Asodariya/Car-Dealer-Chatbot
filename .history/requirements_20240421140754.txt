@@ -1,3 +1,0 @@
-python == 3.9
-Pip == 22
-pytorch

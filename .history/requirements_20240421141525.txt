@@ -1,3 +1,0 @@
-python==3.11.8
-pytorch
-nltk  # No version specified, will install latest stable version

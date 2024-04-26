@@ -1,9 +1,0 @@
-From python:3.9
-
-WORKDIR C:\Users\uttam\OneDrive\Desktop\chat_bot
-
-# Copy requirements file
-Copy requirements.txt ./
-
-#Install dependencies
-Run pip install -r requirements.txt

@@ -1,4 +1,0 @@
-pandas
-numpy
-pytorch
-nltk  # No version specified, will install latest stable version
