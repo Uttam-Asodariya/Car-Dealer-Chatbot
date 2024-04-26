@@ -2,15 +2,13 @@
 # coding: utf-8
 
 # In[1]:
-
-
 import nltk
 import numpy as np
-nltk.download('punkt')
+# nltk.download('punkt')
 import torch
 from nltk.stem.porter import PorterStemmer
 device = "cuda" if torch.cuda.is_available() else "cpu"
-print(device)
+# print(device)
 stemmer = PorterStemmer()
 def tokenize(sentence):
     return nltk.word_tokenize(sentence)
@@ -35,7 +33,7 @@ sentence =["hello", "how", "are", "you"]
 words=["hi", "hello", "I", "you", "bye","thank", "cool"]
 
 bog= bag_of_words(sentence, words)
-print(bog)
+# print(bog)
 
 
 
