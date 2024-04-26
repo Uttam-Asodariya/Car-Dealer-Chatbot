@@ -2,4 +2,4 @@
 .\CHATBOT train.py
 .\Dockerfile
 .\README.md
-.\stored_experience
+stored_experience
