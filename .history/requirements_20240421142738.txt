@@ -1,0 +1,4 @@
+torchvision
+torchaudio
+
+nltk  # No version specified, will install latest stable version

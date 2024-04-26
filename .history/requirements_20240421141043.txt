@@ -1,0 +1,4 @@
+pip==22.0.post1  # Assuming specific Pip version needed
+python==3.9.0
+pytorch
+nltk  # No version specified, will install latest stable version

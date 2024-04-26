@@ -1,0 +1,4 @@
+
+python==3.9.0
+pytorch
+nltk  # No version specified, will install latest stable version

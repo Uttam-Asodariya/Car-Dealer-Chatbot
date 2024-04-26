@@ -1,0 +1,3 @@
+pandasd
+pytorch
+nltk  # No version specified, will install latest stable version
