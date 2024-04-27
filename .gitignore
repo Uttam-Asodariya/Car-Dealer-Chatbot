@@ -4,5 +4,4 @@ CHATBOT train.py
 Dockerfile
 README.md
 stored_experiencedebug
-intents.json
 vercel.json
