@@ -2,4 +2,5 @@ torch==2.0.1
 torchaudio
 torchvision
 nltk  # No version specified, will install latest stable version
-gunicorn == 20.1.0
+gunicorn 
+Flask
