@@ -1,7 +1,5 @@
 .history
-CHATBOT train.ipynb
 CHATBOT train.py
 Dockerfile
-README.md
-stored_experiencedebug
-vercel.json
+__pycache__
+
