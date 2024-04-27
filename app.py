@@ -2,6 +2,7 @@
 from flask import Flask, render_template, request
 from car_dealer_chatboat import *
 
+#waitress-serve --host 127.0.0.1 app:app for hosting app
 
 app = Flask(__name__) # define application name
 
@@ -20,4 +21,4 @@ def communicate():
 
 
 if __name__ == "__main__":
-    app.run(port=5500, debug = True)
+    app.run(debug = True)

@@ -1,5 +1,6 @@
 .history
 CHATBOT train.py
 Dockerfile
-__pycache__\
+*.pyc
+
 
