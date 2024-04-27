@@ -4,7 +4,7 @@ import torch
 from nltk_utils import bag_of_words, tokenize
 from model import NeuralNet
 
-device =torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+# device =torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 with open('intents.json', 'r') as f:
     intents = json.load(f)
@@ -19,7 +19,7 @@ all_words = data['all_words']
 tags = data['tags']
 model_state = data["model_state"]
 
-model = NeuralNet(input_size, hidden_size, output_size).to(device)
+model = NeuralNet(input_size, hidden_size, output_size)
 model.load_state_dict(model_state)
 model.eval()
 
