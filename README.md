@@ -5,11 +5,10 @@
  ```
     flask run
  ```
- - OR, copy below hosted link.
+- OR,
 
- ```
-    https://car-dealer-chatbot-1.onrender.com
- ```
+-  hosted link: (https://car-dealer-chatbot-1.onrender.com)
+
 
 - Start with below mentioned prompt for better experience. 
  ```
