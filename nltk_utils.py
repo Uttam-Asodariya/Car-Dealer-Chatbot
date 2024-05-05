@@ -4,7 +4,7 @@
 # In[1]:
 import nltk
 import numpy as np
-# nltk.download('punkt')
+nltk.download('punkt')
 import torch
 from nltk.stem.porter import PorterStemmer
 device = "cuda" if torch.cuda.is_available() else "cpu"

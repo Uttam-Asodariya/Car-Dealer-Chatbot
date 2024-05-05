@@ -14,10 +14,7 @@ from nltk_utils import tokenize, stem, bag_of_words
 with open('intents.json', 'r') as f:
     intents = json.load(f)
 
-
 device =torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-
-
 
 all_words =[]
 tags=[]
