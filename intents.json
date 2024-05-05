@@ -1,6 +1,6 @@
 {"intents": [
     {"tag": "Greeting",
-        "patterns": ["Hi", "How are you?", "Is anymore there?", "Hey", "Good day"],
+        "patterns": ["Hi", "How are you?", "Is anybody there?", "Hey", "Good day"],
         "responses": ["Good to see you again", "Hi there, how can I help you?"]
     },
     {"tag": "Noanswer",
@@ -9,19 +9,19 @@
     },
     {"tag": "Buy",
         "patterns": ["I want to buy a car","I am looking for a car", "I need a car", "car", "Jeep"],
-        "responses":["First of all congratulations. Which one: New or Second hand"]
+        "responses":["First of all congratulations. Which one: new one or second hand"]
     },
     {"tag": "Car Type",
-        "patterns": ["New", "Second hand", "Branded", "old"],
-      "responses": [ "Perfect, Now tell me which auto brand you would prefer: Audi, BMW, Mercedes-Benz, Volkswagen", "which car company is your desirable: Audi, BMW, Mercedes-Benz, Volkswagen", "From which brand: Audi, BMW, Mercedes-Benz, Volkswagen" ]
+        "patterns": ["new one", "second hand", "branded", "old"],
+      "responses": [ "Perfect, Now tell me which auto brand you would prefer: Audi, BMW, Mercedes-Benz, Volkswagen", "which car company is your desirable: Audi, BMW, Mercedes-Benz, Volkswagen", "From which brand: Audi, BMW, Mercedes-Benz, Volkswagen"]
     },
     {"tag":"Car Brand",
       "patterns": [ "Audi", "BMW", "Mercedes-Benz", "Volkswagen"],
-        "responses":["Waiting we are preparing your choice.....Here, you can go: ABC, XYZ, PQR, KLW, UPQ"]
+        "responses":["Please wait, we are preparing the results. There, you can go: ABC, XYZ, PQR, KLW, UPQ"]
     },
     {"tag":"Purchasing",
         "patterns": ["ABC", "XYZ", "PQR","KLW", "UPQ", "U", "p", "Q", "K", "L", "W", "A", "B", "c", "XY", "YZ", "ZA", "PQ", "QR", "RA"],
-        "responses":["Here is the total cost of this product with 5 free service per year: 63000€."]
+        "responses":["Here is the total cost of this product with 5 free services per year: 63000€."]
     },
     {"tag":"Confirmation",
         "patterns":["Ok, I want to buy this", "This one is done", "I want to go with this"],
